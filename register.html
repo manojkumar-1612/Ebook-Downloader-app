@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+        <section>
+            <form action="register.php" method="post">
+                <h1>Create Account</h1>
+                <div class="inputbox">
+                    <!-- <ion-icon name="user-outline"></ion-icon> -->
+                    <input type="text" name="name" id="userName" required>
+                    <label for="userName">User Name</label>
+                </div>
+                <div class="inputbox">
+                
+                     <!-- <ion-icon name="mail-outline"></ion-icon> -->
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" name="pass" id="passwd" required>
+                    <label for="passwd">Password</label>
+                </div>
+                 <input type="submit" name="submit" value="Register" class="btn">
+                <!-- <button>Register</button> -->
+                <div class="register">
+                    <p>You have a account <a href="./login.php">Login</a></p>
+                </div>
+            </form>
+        </section>
+</body>
+</html>
